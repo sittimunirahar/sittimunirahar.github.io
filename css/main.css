@@ -2298,6 +2298,38 @@ body:after {
   padding: 100px 0;
 }
 
+.amazing-works-area .primary-btn {
+  border: 1px solid #ccc;
+}
+
+.amazing-works-area .primary-btn span {
+  color: #3c408f;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.amazing-works-area .primary-btn .lnr {
+  color: #49e3ce;
+  -webkit-transition: all 0.3s ease 0s;
+  -moz-transition: all 0.3s ease 0s;
+  -o-transition: all 0.3s ease 0s;
+  transition: all 0.3s ease 0s;
+}
+
+.amazing-works-area .primary-btn:hover {
+  border: 1px solid transparent;
+}
+
+.amazing-works-area .primary-btn:hover span {
+  color: #fff;
+}
+
+.amazing-works-area .primary-btn:hover .lnr {
+  color: #fff;
+}
+
 .active-works-carousel .item {
   text-align: center;
 }
@@ -2306,8 +2338,9 @@ body:after {
   background-position: center center !important;
   background-size: cover !important;
   background-repeat: no-repeat !important;
-  height: 320px;
+  height: 400px;
   width: 70%;
+  border: 1px solid #ccc;
   display: inline-block;
 }
 
@@ -2431,7 +2464,7 @@ body:after {
 }
 
 .story-area .primary-btn {
-  border: 1px solid #eee;
+  border: 1px solid #ccc;
 }
 
 .story-area .primary-btn span {
@@ -2491,7 +2524,7 @@ body:after {
   left: 0;
   width: 50%;
   height: 100%;
-  background: url(../img/story-bg.jpg) no-repeat center center/cover;
+  background: url(../img/story-bg-2.jpg) no-repeat center center/cover;
   z-index: 1;
 }
 
@@ -2559,13 +2592,15 @@ body:after {
 }
 
 .brand-area {
-  padding: 80px 0 100px 0;
+  /*padding: 5px 0 5px 0;*/
+  background-color: white
 }
 
 .total-brand img {
-  margin-top: 20px;
-  width: 16%;
-  height: auto;
+  margin-top: 30px;
+  margin-bottom: 30px;
+  width: 13%;
+  height: 10%;
 }
 
 .subscription-area {
